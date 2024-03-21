@@ -7,7 +7,7 @@ It uses pyodbc and SQLAlchemy for database related stuff.
 
 Based on Debian 12.
 
-Python has already installed following packages and its dependacies:
+Python has already installed following packages and its dependancies:
 
 ```
 alembic==1.13.1
@@ -74,7 +74,7 @@ WORKDIR /app
 COPY . .
 ```
 
-and this is command for building your image:
+and this is command for building your container:
 
 `docker run -e APP_MODULE=my_module emes/my-module`
 
